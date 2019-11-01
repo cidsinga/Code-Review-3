@@ -20,17 +20,22 @@ $(document).ready(function(){
   var zero = 0;
   while(zero <= numberInput) {
     outputs.push(zero++);
-    return.outputs.text
+
       console.log(outputs);
+
 
   }
-    // outputs.map(function(output) {
-    //   if (output === 3);
-    //   return "I'm sorry, Dave. I'm afraid I can't do that."
+    alert(outputs);
+    $("#answer").text("outputs");
+
+
+    outputs.map(function(output) {
+      if ("outputs"[index] === 3);
+      return "I'm sorry, Dave. I'm afraid I can't do that."
 
       console.log(outputs);
 
-    // })
+    })
 
 
   // console.log(outputs);
@@ -46,7 +51,7 @@ $(document).ready(function(){
   // }
 
 
-$("#answer").text(outputs);
+
     // output.push(index);
   });
 });
