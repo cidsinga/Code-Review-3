@@ -11,10 +11,8 @@ $(document).ready(function(){
   console.log(numberInput);
 // function beepBooper() {
   var output = [];
-  // var numberInput = parseInt($('input#numberInput').val());
-
   // for(var index = 0; index <= numberInput; i++)
-  // var stringNumber = number.toString().split(" ");
+
 
   console.log(numberInput);
   var zero = 0
@@ -31,3 +29,4 @@ $(document).ready(function(){
 
   });
 });
+  // var stringNumber = number.toString().split(" ");
