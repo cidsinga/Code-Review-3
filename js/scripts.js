@@ -3,10 +3,15 @@
 // Number that contain a 3: all digits are replaced with I'm sorry dave..
 //
 // written from least to most important, first only applies UNLESS the 2nd exception does
-
+// Front End Logic
+$(document).ready(function(){
+  $('#inputForm').submit(function(event){
+  event.preventDefault();
+  var numberInput = parseInt($('input#numberInput').val());
+  console.log(numberInput);
 // function beepBooper() {
   var output = [];
-  var numberInput = parseInt($('input#numberInput').val());
+  // var numberInput = parseInt($('input#numberInput').val());
 
   // for(var index = 0; index <= numberInput; i++)
   // var stringNumber = number.toString().split(" ");
@@ -22,12 +27,7 @@
 
     // output.push(index);
 
-// Front End Logic
-$(document).ready(function(){
-  $('#inputForm').submit(function(event){
-  event.preventDefault();
-  // var numberInput = parseInt($('input#numberInput').val());
-  console.log(numberInput);
+
 
   });
 });
