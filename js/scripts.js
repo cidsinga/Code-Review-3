@@ -11,6 +11,9 @@ $(document).ready(function(){
   console.log(numberInput);
 // function beepBooper() {
   var outputs = [];
+  var regex3 = regExp("*3*");
+  var regex2 = regExp("*2*");
+  var regex1 = regExp("*1*");
     // for(var index = 0; index <= numberInput; i++)
     // if output contains a 3 execute... if contains a 2 execute... if 1 ..
 // I want to convert each number into an array inside of the Outputs array
@@ -20,17 +23,14 @@ $(document).ready(function(){
   var zero = 0;
   while(zero <= numberInput) {
     outputs.push(zero++);
-
       console.log(outputs);
-
-
   }
     alert(outputs);
-    $("#answer").text("outputs");
+    // $("#answer").text("outputs");
 
 
-    outputs.map(function(output) {
-      if ("outputs"[index] === 3);
+    newOutput = outputs.map(function(output) {
+      if indexOf(outputs === 3);
       return "I'm sorry, Dave. I'm afraid I can't do that."
 
       console.log(outputs);
