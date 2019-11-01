@@ -4,18 +4,24 @@
 //
 // written from least to most important, first only applies UNLESS the 2nd exception does
 
-function beepBooper(number) {
+// function beepBooper(number) {
   var output = [];
-  var stringNumber = number.toString().split(" ");
-  console.log("split: ", stringNumber)
+  // var stringNumber = number.toString().split(" ");
+
+  for (var index = 0; index <= numberInput; index ++i) {
+    output.push(index)
+  }
 
 
-}
+
+
+
+
 // Front End Logic
 $(document).ready(function(){
   $('#inputForm').submit(function(event){
   event.preventDefault();
   var numberInput = parseInt($('input#numberInput').val());
-  var beepBooper(numberInput);
+
   });
 });
