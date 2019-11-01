@@ -14,7 +14,9 @@ $(document).ready(function(){
   // for(var index = 0; index <= numberInput; i++)
 
   // if output contains a 3 execute... if contains a 2 execute... if 1 ..
-if (outputs[i]
+if outputs.forEach(function(index = 3 || *3*));
+
+// I want to convert each number into an array inside of the Outputs array
 
   console.log(numberInput);
   var zero = 0
