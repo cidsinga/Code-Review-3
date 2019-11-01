@@ -11,7 +11,6 @@ $(document).ready(function(){
   console.log(numberInput);
 // function beepBooper() {
   var outputs = [];
-
     // for(var index = 0; index <= numberInput; i++)
     // if output contains a 3 execute... if contains a 2 execute... if 1 ..
 // I want to convert each number into an array inside of the Outputs array
@@ -22,20 +21,31 @@ $(document).ready(function(){
   while(zero <= numberInput) {
     outputs.push(zero++);
       console.log(outputs);
-  }
-  console.log(outputs);
-  // function seperateIt(outputs) {
-    var newArray = [];
-    for (var i = 0; i < outputs.length; i += 1) {
-      var sliceIt = outputs.slice(i, i+1);
-      newArray.push(sliceIt);
-    // }
-      return newArray;
-      console.log(newArray);
-  }
-  console.log(newArr);
-  // if outputs.forEach(function(index = 3 || *3*));
 
+  }
+    // outputs.map(function(output) {
+    //   if (output === 3);
+    //   return "I'm sorry, Dave. I'm afraid I can't do that."
+
+      console.log(outputs);
+
+    // })
+
+
+  // console.log(outputs);
+  // // function seperateIt(outputs) {
+  //   for (var i = 0; i < outputs.length; i += 1) {
+  //     var sliceIt = outputs.slice(i, i+1);
+  //
+  //     newArray.push(sliceIt);
+  //           console.log(newArray);
+  //   }
+  //     return newArray;
+  //     console.log(newArray);
+  // }
+
+
+$("#answer").text(outputs);
     // output.push(index);
   });
 });
