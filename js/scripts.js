@@ -11,21 +11,27 @@ $(document).ready(function(){
   console.log(numberInput);
 // function beepBooper() {
   var outputs = [];
-
-  // for(var index = 0; index <= numberInput; i++)
-
-  // if output contains a 3 execute... if contains a 2 execute... if 1 ..
-  if outputs.forEach(function(index = 3 || *3*));
-
+    // for(var index = 0; index <= numberInput; i++)
+    // if output contains a 3 execute... if contains a 2 execute... if 1 ..
 // I want to convert each number into an array inside of the Outputs array
 //  Research is leading me to "chunk" the array into individual arrays
 
   console.log(numberInput);
-  var zero = 0
+  var zero = 0;
   while(zero <= numberInput) {
     outputs.push(zero++);
       console.log(outputs);
   }
+  console.log(outputs);
+  var chunked = [];
+  for (var i = 0; i < outputs.length; i +=1) {
+    chunked.push(outputs.slice(i, size + i));
+  }
+
+  console.log(chunked);
+
+
+  // if outputs.forEach(function(index = 3 || *3*));
 
 
 
