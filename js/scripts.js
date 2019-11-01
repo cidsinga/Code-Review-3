@@ -10,15 +10,17 @@ $(document).ready(function(){
   var numberInput = parseInt($('input#numberInput').val());
   console.log(numberInput);
 // function beepBooper() {
-  var output = [];
+  var outputs = [];
   // for(var index = 0; index <= numberInput; i++)
 
+  // if output contains a 3 execute... if contains a 2 execute... if 1 ..
+if (outputs[i]
 
   console.log(numberInput);
   var zero = 0
   while(zero <= numberInput) {
-    output.push(zero++);
-      console.log(output);
+    outputs.push(zero++);
+      console.log(outputs);
   }
 
 
