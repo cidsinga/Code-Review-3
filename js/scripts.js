@@ -4,11 +4,11 @@
 //
 // written from least to most important, first only applies UNLESS the 2nd exception does
 
-function beepBooper(number) {
+// function beepBooper() {
   var output = [];
   var numberInput = parseInt($('input#numberInput').val());
 
-  // for (var index = 0; index <= numberInput; ++i)
+  // for(var index = 0; index <= numberInput; i++)
   // var stringNumber = number.toString().split(" ");
 
   console.log(numberInput);
@@ -17,22 +17,16 @@ function beepBooper(number) {
     output.push(zero++);
       console.log(output);
   }
-}
+
 
 
     // output.push(index);
-
-
-
-
-
-
 
 // Front End Logic
 $(document).ready(function(){
   $('#inputForm').submit(function(event){
   event.preventDefault();
-  var numberInput = parseInt($('input#numberInput').val());
+  // var numberInput = parseInt($('input#numberInput').val());
   console.log(numberInput);
 
   });
