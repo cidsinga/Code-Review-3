@@ -20,6 +20,7 @@ $(document).ready(function(){
   var zero = 0;
   while(zero <= numberInput) {
     outputs.push(zero++);
+    return.outputs.text
       console.log(outputs);
 
   }
