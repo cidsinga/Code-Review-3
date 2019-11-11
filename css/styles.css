@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+  background-color: #222222;
+  color: #f8f8f8;
+}
+.jumbotron {
+  color: #222222;
+}
+
+#answer {
+  font-size: 20px;
+  padding: 20px;
+}
+#numberInput {
+  color: #222222;
+}

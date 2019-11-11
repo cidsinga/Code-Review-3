@@ -23,5 +23,6 @@ $(document).ready(function(){
     var numberInput = parseInt($('input#numberInput').val());
     var output = beepBooper(numberInput)
     console.log(output);
+    $("#answer").text(output);
   });
 });
