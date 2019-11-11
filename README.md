@@ -33,7 +33,7 @@ Run on your web browser of choice
 
 ## Known Bugs
 
-This currently isn't working and is still under development.
+Page is functioning as intended.
 
 ## Contributing
 Please let me know if you see areas of improvement, and/or feel free to make changes yourself.
